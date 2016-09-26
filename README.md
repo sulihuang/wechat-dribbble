@@ -8,11 +8,11 @@
  - 响应式布局，各个分辨率均能展现良好
 
 ## 预览
-`iphone6`
-![](http://i1.piimg.com/567571/71511b090ba3b107.png)
 
-`iphone6 plus`
-![](http://i1.piimg.com/567571/981aacb53a1c70ba.gif)
+![](http://i1.piimg.com/567571/2c16e38de8cf07bb.png)
+
+###gif
+![](http://i1.piimg.com/567571/3675160510860bb3.gif)
 
 ## 使用
  - 根据[awesome-wechat-weapp](awesome-wechat-weapp)提供的方法，安装微信小程序开发环境
@@ -20,10 +20,10 @@
  - 在微信开发工具中添加刚刚下载的项目项目
  
 ## TODO
-[x] index（popular）page
-[ ] shot detail page, include comments、likes、tags and so on
-[ ] previewImage feature
-[ ] user list page
-[ ] user detail page, include user shots、follows、following
-[ ] team list page
-[ ] team shots
+- [x] index（popular）page
+- [ ] shot detail page, include comments、likes、tags and so on
+- [ ] previewImage feature
+- [ ] user list page
+- [ ] user detail page, include user shots、follows、following
+- [ ] team list page
+- [ ] team shots

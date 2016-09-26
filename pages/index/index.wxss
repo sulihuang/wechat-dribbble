@@ -1,0 +1,9 @@
+.img-content {
+  background: #000;
+}
+.img-nav{
+  float: left;
+}
+image {
+  max-height:100px;
+}

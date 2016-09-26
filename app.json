@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f64a88",
+    "navigationBarTitleText": "Dribbbe",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#353535",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "image/dribbble-black.png",
+      "selectedIconPath": "image/dribbble-color.png",
+      "text": "popular"
+    }, {
+      "pagePath": "pages/debuts/index",
+      "iconPath": "image/drive-black.png",
+      "selectedIconPath": "image/drive-color.png",
+      "text": "debuts"
+    }, {
+      "pagePath": "pages/designers/index",
+      "iconPath": "image/blogger-black.png",
+      "selectedIconPath": "image/blogger-color.png",
+      "text": "designers"
+    }, {
+      "pagePath": "pages/teams/index",
+      "iconPath": "image/principle-black.png",
+      "selectedIconPath": "image/principle-color.png",
+      "text": "teams"
+    }]
+  },
+  "networkTimeout": {
+    "request": 120000
+  }
+}

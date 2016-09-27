@@ -15,7 +15,7 @@
 ![](http://i1.piimg.com/567571/3675160510860bb3.gif)
 
 ## 使用
- - 根据[awesome-wechat-weapp](awesome-wechat-weapp)提供的方法，安装微信小程序开发环境
+ - 根据[awesome-wechat-weapp](https://github.com/Aufree/awesome-wechat-weapp)提供的方法，安装微信小程序开发环境
  - `git clone https://github.com/nicesu/wechat-dribbble.git`
  - 在微信开发工具中添加刚刚下载的项目项目
  

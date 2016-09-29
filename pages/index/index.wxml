@@ -2,7 +2,7 @@
 <loading hidden="{{loading}}">
   加载中...
 </loading>
-<scroll-view class="container img-content" style="height: {{windowHeight}}px; width: {{windowWidth}}px; " scroll-y="true" bindscrolltoupper="pullDownRefresh" bindscrolltolower="pullUpLoad">
+<scroll-view class="container img-content" style="height: {{windowHeight}}px; width: {{windowWidth}}px; " scroll-y="true" bindscrolltoupper="pullDownRefresh" bindscrolltolower="pullUpLoad" lower-threshold="800">
       <navigator wx:for="{{list}}" wx:for-index="id" class="img-nav" url="../detail/detail?id={{item.id}}">
         <image src="{{item.images.normal}}"  style="margin: 1px 2px;width: {{(windowWidth - 12)/3}}px;" mode="scaleToFill" />
       </navigator>

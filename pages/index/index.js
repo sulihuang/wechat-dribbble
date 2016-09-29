@@ -42,12 +42,9 @@ Page({
 
   pullUpLoad: function (e) {
     if (this.data.list.length === 0) return;
-    this.setData({
-      loading: false
-    })
     app.fetchApi(api.getShots({page: ++this.index}), (err, res) => {
       //更新数据
-      this.setData({list: this.data.list.concat(res), loading: true})
+      this.setData({list: this.data.list.concat(res)})
     })
   },
 })
